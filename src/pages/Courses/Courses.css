@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800&display=swap");
+.courses-title-block {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 128px 56px;
+}
+
+.courses-title {
+  width: 626px;
+  height: 46px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  align-items: center;
+  color: #000000;
+}
+
+.courses-text {
+  width: 738px;
+  height: 87px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.courses-list {
+  margin: 0px 142px;
+}
+.courses-list-title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.courses-list-title-img {
+  margin-right: 24px;
+}
+
+.courses-list-title-text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #050505;
+}
+
+.courses-list-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 75px 60px;
+}
+
+.courses-list-content {
+  text-align: left;
+}
+
+.courses-list-content-title {
+  width: 171px;
+  height: 19px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  align-items: center;
+  text-transform: uppercase;
+  color: #2f5aa8;
+}
+.courses-list-content-description {
+  width: 282px;
+  height: 44px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  align-items: center;
+  color: #000000;
+}
+
+.courses-list-content-btn {
+  width: 282px;
+  padding: 12px 64px;
+  font-family: "Nunito Sans";
+  border-radius: 25px;
+  color: #2f5aa8;
+  border: 1px solid #2f5aa8;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.courses-list-content-btn:hover {
+  background-color: #2f5aa8;
+  color: #fff;
+  transition: 0.3s;
+}
