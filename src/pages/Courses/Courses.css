@@ -42,6 +42,14 @@
   margin-bottom: 56px;
 }
 
+.courses-list-title-two {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 56px;
+  padding-top: 120px;
+}
+
 .courses-list-title-img {
   margin-right: 24px;
 }
