@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Events from './pages/Event/Events';
 import Courses from './pages/Courses/Courses';
 import Qa from './pages/Qa/Qa';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/courses" element={<Courses/>} />
         <Route path="/qa" element={<Qa/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
