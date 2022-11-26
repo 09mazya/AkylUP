@@ -101,4 +101,10 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  cursor: pointer;
+}
+.courses-list-content-btn:hover {
+  background-color: #2f5aa8;
+  color: #fff;
+  transition: 0.3s;
 }
