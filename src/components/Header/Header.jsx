@@ -16,7 +16,7 @@ function Header() {
           <Link to = "/courses" className='courses'> Курсы </Link>
           <Link to = "/qa" className='qa'> Вопросы и Ответы </Link>
           <Link to = "/articles" className='articles'> Статьи </Link>
-          <Link to = "/login" className='login'> Вход </Link>
+          <button className='login'> Вход </button>
         </div>
     </div>
   )
