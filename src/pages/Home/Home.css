@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    box-sizing: border-box;
 }
 
 .title {
@@ -64,15 +65,40 @@
     gap: 10px;
     width: 260px;
     height: 55px;
-    background: #2F5AA8;
     border-radius: 100px;
-    border: none;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgba(47, 90, 168, 1);
+}
+.button button::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fc2f70;
+    transform-origin: center bottom;
+    transform: scaleY(0);
+    transition: transform 0.25s ease-in-out;
+    border-radius: 100px;
+} 
+.button button:hover{
+    cursor: pointer;
+}
+.button button:hover::before{
+    transform-origin: center top;
+    transform: scaleY(1);
+
 }
 
 .discription {
