@@ -17,12 +17,12 @@ function Events() {
 				<EventsCard />
 				<EventsCard />
 			</div>
-      <div className="wishlist">
+			<div className="wishlist">
 				<EventsCard />
 				<EventsCard />
 				<EventsCard />
 			</div>
-      <div className="wishlist">
+			<div className="wishlist">
 				<EventsCard />
 				<EventsCard />
 				<EventsCard />

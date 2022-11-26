@@ -1,14 +1,19 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 import './Header.scss'
 import logo from './../../assets/img/Logo (3).png'
 import Modal from './../Modal/Modal'
 
 function Header() {
   const [isOpen, setIsOpen]= useState(false)
+  const navigate = useNavigate();
+  const handleLogo = () => {
+    navigate('/');
+  }
   return (
     <div className='header'>
-        <div className="logo">
+        <div className="logo" onClick={handleLogo}>
           <img src={logo} alt="" />
         </div>
 
