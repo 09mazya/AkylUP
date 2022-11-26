@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AkylUP/static/css/main.fd181cb3.css",
-    "main.js": "/AkylUP/static/js/main.94c90e03.js",
+    "main.js": "/AkylUP/static/js/main.3db07878.js",
     "static/media/image.png": "/AkylUP/static/media/image.f07c3f61215d57304976.png",
     "static/media/circle.png": "/AkylUP/static/media/circle.5756c45ed44ccbd87855.png",
     "index.html": "/AkylUP/index.html",
     "main.fd181cb3.css.map": "/AkylUP/static/css/main.fd181cb3.css.map",
-    "main.94c90e03.js.map": "/AkylUP/static/js/main.94c90e03.js.map"
+    "main.3db07878.js.map": "/AkylUP/static/js/main.3db07878.js.map"
   },
   "entrypoints": [
     "static/css/main.fd181cb3.css",
-    "static/js/main.94c90e03.js"
+    "static/js/main.3db07878.js"
   ]
 }
