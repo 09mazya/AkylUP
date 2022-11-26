@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/AkylUP/static/css/main.073c9b0a.css",
-    "main.js": "/AkylUP/static/js/main.579a7a5a.js",
-    "index.html": "/AkylUP/index.html",
-    "main.073c9b0a.css.map": "/AkylUP/static/css/main.073c9b0a.css.map",
-    "main.579a7a5a.js.map": "/AkylUP/static/js/main.579a7a5a.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.579a7a5a.js"
-  ]
+  "main.css": "/static/css/main.5653408b.chunk.css",
+  "main.js": "/static/js/main.9469ed99.chunk.js",
+  "main.js.map": "/static/js/main.9469ed99.chunk.js.map",
+  "static/js/1.2c02afda.chunk.js": "/static/js/1.2c02afda.chunk.js",
+  "static/js/1.2c02afda.chunk.js.map": "/static/js/1.2c02afda.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.5653408b.chunk.css.map": "/static/css/main.5653408b.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.7b6e2b8f07958f98e69a38c90d4c2460.js": "/precache-manifest.7b6e2b8f07958f98e69a38c90d4c2460.js",
+  "service-worker.js": "/service-worker.js"
 }
