@@ -1,5 +1,7 @@
 import React from "react";
 import "../Courses/Courses.css";
+import Circle from "../Courses/courses-img/circle.png";
+import ImgFor from "../Courses/courses-img/imgfor.png";
 
 function Courses() {
   return (
@@ -12,9 +14,32 @@ function Courses() {
         </p>
       </div>
       <div className="courses-list">
-          <div>
-            
+        <div className="courses-list-title">
+          <img className="courses-list-title-img" src={Circle} alt="" />
+          <p className="courses-list-title-text">
+            ПОДХОДЫ К РАЗРАБОТКЕ ПОЛИТИКИ
+          </p>
+        </div>
+        <div className="courses-list-wrap">
+          <div className="courses-list-content">
+            <img src={ImgFor} alt="" />
+            <p>Бесплатные курсы</p>
+            <p>Экономическая справедливость и права</p>
+            <button>Узнать больше</button>
           </div>
+          <div className="courses-list-content">
+            <img src={ImgFor} alt="" />
+            <p>Бесплатные курсы</p>
+            <p>Экономическая справедливость и права</p>
+            <button>Узнать больше</button>
+          </div>
+          <div className="courses-list-content">
+            <img src={ImgFor} alt="" />
+            <p>Бесплатные курсы</p>
+            <p>Экономическая справедливость и права</p>
+            <button>Узнать больше</button>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -31,3 +31,36 @@
   text-align: center;
   color: #000000;
 }
+
+.courses-list {
+  margin: 0px 142px;
+}
+.courses-list-title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.courses-list-title-img {
+  margin-right: 24px;
+}
+
+.courses-list-title-text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.courses-list-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 75px 60px;
+}
+
+.courses-list-content {
+  text-align: left;
+}
