@@ -1,7 +1,7 @@
 import React from "react";
 import "../Courses/Courses.css";
 import Circle from "../Courses/courses-img/circle.png";
-import ImgFor from "../Courses/courses-img/imgfor.png";
+import DataList from "../../courses.json";
 
 function Courses() {
   return (
@@ -21,24 +21,18 @@ function Courses() {
           </p>
         </div>
         <div className="courses-list-wrap">
-          <div className="courses-list-content">
-            <img src={ImgFor} alt="" />
-            <p>Бесплатные курсы</p>
-            <p>Экономическая справедливость и права</p>
-            <button>Узнать больше</button>
-          </div>
-          <div className="courses-list-content">
-            <img src={ImgFor} alt="" />
-            <p>Бесплатные курсы</p>
-            <p>Экономическая справедливость и права</p>
-            <button>Узнать больше</button>
-          </div>
-          <div className="courses-list-content">
-            <img src={ImgFor} alt="" />
-            <p>Бесплатные курсы</p>
-            <p>Экономическая справедливость и права</p>
-            <button>Узнать больше</button>
-          </div>
+          {DataList.map((item) => (
+            <div className="courses-list-content">
+              <img src={item.image} alt="" />
+              <p className="courses-list-content-title">{item.title}</p>
+              <p className="courses-list-content-description">
+                {item.description}
+              </p>
+              <button className="courses-list-content-btn">
+                Узнать больше
+              </button>
+            </div>
+          ))}
         </div>
       </div>
     </>
