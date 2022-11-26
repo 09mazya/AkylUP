@@ -4,7 +4,8 @@
     padding-right: 40px;
     padding-left: 40px;
     gap: 10px;
-
+    // position:fixed;
+    border-bottom: 0.7px solid #2F5AA8;
     background: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -30,7 +31,7 @@
             font-weight: 800;
             font-size: 16px;
             line-height: 22px;
-            color: #000000;
+            color: rgba(0, 0, 0, 0.8);
         }
 
         a:hover{
