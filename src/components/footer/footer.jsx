@@ -3,7 +3,6 @@ import './footer.scss'
 
 function Footer() {
   return (
-
     <div className='mainWrapper'>
         <div className='container'>
             <div className='Svg'>
