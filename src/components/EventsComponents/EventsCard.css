@@ -6,9 +6,6 @@
     cursor: pointer;
 }
 
-
-.wrapper-events b{
-
 .text b{
 
     display: block;
@@ -21,7 +18,6 @@
     margin: 0%; 
 }
 
-.wrapper-events p{
 
 .text p{
     display: block;
