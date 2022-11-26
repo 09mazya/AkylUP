@@ -17,8 +17,26 @@ function Courses() {
         <div className="courses-list-title">
           <img className="courses-list-title-img" src={Circle} alt="" />
           <p className="courses-list-title-text">
-            ПОДХОДЫ К РАЗРАБОТКЕ ПОЛИТИКИ
+            ЦИФРОВОЕ ПРАВИТЕЛЬСТВО И ТЕХНОЛОГИИ
           </p>
+        </div>
+        <div className="courses-list-wrap">
+          {DataList.map((item) => (
+            <div className="courses-list-content">
+              <img src={item.image} alt="" />
+              <p className="courses-list-content-title">{item.title}</p>
+              <p className="courses-list-content-description">
+                {item.description}
+              </p>
+              <button className="courses-list-content-btn">
+                Узнать больше
+              </button>
+            </div>
+          ))}
+        </div>
+        <div className="courses-list-title-two">
+          <img className="courses-list-title-img" src={Circle} alt="" />
+          <p className="courses-list-title-text">ЛИЧНАЯ ЭФФЕКТИВНОСТЬ</p>
         </div>
         <div className="courses-list-wrap">
           {DataList.map((item) => (

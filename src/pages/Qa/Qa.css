@@ -1,0 +1,80 @@
+.qa-form-wrap {
+  display: flex;
+  justify-content: center;
+}
+.qa-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 792px;
+  height: 417px;
+  background: rgba(81, 163, 238, 0.3);
+  border-radius: 40px;
+}
+
+.qa-input {
+  align-items: center;
+  padding: 16px 20px;
+  width: 484px;
+  height: 30px;
+  background: #f7f7fd;
+  border-radius: 20px;
+  border: none;
+}
+.question-for-colleagues {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+input {
+  outline: none;
+}
+
+.your-question {
+  position: relative;
+  right: 200px;
+  top: 10px;
+}
+
+.qa-input-undertext {
+  width: 428px;
+  height: 54px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: 175px;
+  margin-bottom: 50px;
+}
+
+.qa-button {
+  padding: 15px 20px;
+  width: 280px;
+  height: 52px;
+  background: rgba(81, 163, 238, 0.7);
+  border-radius: 25px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+
+}
+
+.qa-button:hover {
+  box-shadow: 1px 6px 72px -4px rgba(246, 248, 250, 0.2);
+  background-color: #f7f7fd;
+  color: #2f5aa8;
+  transition: 0.3s;
+}
