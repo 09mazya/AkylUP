@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AkylUP/static/css/main.073c9b0a.css",
+    "main.js": "/AkylUP/static/js/main.579a7a5a.js",
+    "index.html": "/AkylUP/index.html",
+    "main.073c9b0a.css.map": "/AkylUP/static/css/main.073c9b0a.css.map",
+    "main.579a7a5a.js.map": "/AkylUP/static/js/main.579a7a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.579a7a5a.js"
+  ]
+}
