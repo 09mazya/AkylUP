@@ -49,10 +49,11 @@
 .courses-list-title-text {
   font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 120%;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 100%;
   color: #050505;
+  letter-spacing: 5px;
 }
 
 .courses-list-wrap {
