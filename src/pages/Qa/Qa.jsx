@@ -1,5 +1,8 @@
 import React from "react";
 import "../Qa/Qa.css";
+import Chat from "./QA-img/chat_bubble.png";
+import Collegues from "../Qa/QA-img/messageguys.png";
+import QA from "../../QA.json";
 
 function Qa() {
   return (
@@ -18,6 +21,24 @@ function Qa() {
           </p>
           <button className="qa-button">Отправить свой вопрос</button>
         </div>
+        {QA.map((item) => (
+          <div className="questions">
+            <p className="quetions-text">{item.question}</p>
+            <div className="message-from">
+              <div>
+                <div className="collegues">
+                  <img src={Collegues} alt="" />
+                  <span className="micro-answers">Сообщение от коллег</span>
+                </div>
+                <p className="micro-answers-data">26 ноября 2022 года </p>
+              </div>
+              <div className="chat-bubble">
+                <img className="chat-bubble-img" src={Chat} alt="" />
+                <span className="micro-answers">{item.answer}</span>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );

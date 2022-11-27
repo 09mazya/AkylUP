@@ -8,15 +8,17 @@
 }
 
 .courses-title {
-  width: 626px;
-  height: 46px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
-  line-height: 120%;
-  align-items: center;
-  color: #000000;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 52px;
+  text-align: left;
+  color: #2F5AA8;
+  text-transform:uppercase;
+  text-align: center;
+  margin-top: 50px;
+  
 }
 
 .courses-text {

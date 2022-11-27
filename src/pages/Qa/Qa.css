@@ -1,6 +1,20 @@
 .qa-form-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 52px;
+  text-align: left;
+  color: #2f5aa8;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
 }
 .qa-form {
   flex-direction: column;
@@ -12,6 +26,7 @@
   height: 417px;
   background: rgba(81, 163, 238, 0.3);
   border-radius: 40px;
+  margin-bottom: 60px;
 }
 
 .qa-input {
@@ -26,7 +41,7 @@
 .question-for-colleagues {
   font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 120%;
   color: #000000;
@@ -69,7 +84,6 @@ input {
   color: #ffffff;
   border: none;
   cursor: pointer;
-
 }
 
 .qa-button:hover {
@@ -77,4 +91,79 @@ input {
   background-color: #f7f7fd;
   color: #2f5aa8;
   transition: 0.3s;
+}
+
+.questions {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  width: 941px;
+  height: 223px;
+  background: rgba(203, 227, 250, 0.3);
+  border-radius: 40px;
+  margin-bottom: 60px;
+}
+
+.quetions-text {
+  width: 877px;
+  height: 58px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 72px;
+}
+
+.message-from {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collegues {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chat-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+
+.micro-answers {
+  width: 187px;
+  height: 19px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #00000091;
+}
+.micro-answers-data {
+  width: 187px;
+  height: 19px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #00000091;
+  position: relative;
+  left: 40px;
+  top: -15px;
+}
+
+.chat-bubble-img {
+  position: relative;
+  top: 3px;
+  left: 55px;
 }
