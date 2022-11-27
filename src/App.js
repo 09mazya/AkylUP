@@ -1,26 +1,27 @@
-import './App.css';
-import { Route, Routes } from "react-router-dom"
-import Home from './pages/Home/Home'
-import Header from './components/Header/Header';
-import Events from './pages/Event/Events';
-import Courses from './pages/Courses/Courses';
-import Qa from './pages/Qa/Qa';
-import Footer from './components/footer/footer';
-import MyProfile from './pages/Dashboard/MyProfile/MyProfile';
-
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Header from "./components/Header/Header";
+import Events from "./pages/Event/Events";
+import Courses from "./pages/Courses/Courses";
+import Qa from "./pages/Qa/Qa";
+import Articles from "./pages/Articles/Articles.jsx";
+import Footer from "./components/footer/footer";
+import MyProfile from "./pages/Dashboard/MyProfile/MyProfile";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/events" element={<Events/>} />
-        <Route path="/courses" element={<Courses/>} />
-        <Route path="/qa" element={<Qa/>} />
-        <Route path="/my-profile" element={<MyProfile/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/qa" element={<Qa />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/my-profile" element={<MyProfile />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

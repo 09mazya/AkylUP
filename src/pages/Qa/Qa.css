@@ -4,6 +4,18 @@
   align-items: center;
   flex-direction: column;
 }
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 52px;
+  text-align: left;
+  color: #2f5aa8;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
 .qa-form {
   flex-direction: column;
   justify-content: center;
@@ -29,7 +41,7 @@
 .question-for-colleagues {
   font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 120%;
   color: #000000;
