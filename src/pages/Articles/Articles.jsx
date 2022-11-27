@@ -11,7 +11,7 @@ function Articles() {
         <button className="article-btn">Начать обучение</button>
         {DataArticles.map((item) => (
           <div className="articles-list">
-            <img src={item.image} alt="" />
+            <img className="articles-img" src={item.image} alt="" />
             <div>
               <p className="articles-list-p">{item.title}</p>
               <div className="autor-block">

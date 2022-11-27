@@ -8,17 +8,16 @@
 }
 
 .courses-title {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 52px;
   text-align: left;
-  color: #2F5AA8;
-  text-transform:uppercase;
+  color: #2f5aa8;
+  text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
-  
 }
 
 .courses-text {
@@ -98,6 +97,12 @@
   line-height: 140%;
   align-items: center;
   color: #000000;
+}
+
+.courses-img {
+  width: 282px;
+  height: 139px;
+  border-radius: 16px;
 }
 
 .courses-list-content-btn {
