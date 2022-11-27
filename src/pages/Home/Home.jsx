@@ -22,8 +22,7 @@ function Home() {
           <p>Совершенствуйте свои навыки, становитесь лучше</p>
 
           <div>
-            <button className='login' onClick={()=> setIsOpen(true)}> Начать </button>
-            {isOpen && <Modal setIsOpen={setIsOpen}/>}
+            <button className='login'> Начать </button>
           </div>
           <div className="main-text">
             <p><b>25,000 +</b>  ежедневных активных пользователей</p>
