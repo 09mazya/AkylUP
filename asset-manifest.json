@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/AkylUP/static/css/main.fd181cb3.css",
-    "main.js": "/AkylUP/static/js/main.3db07878.js",
+    "main.css": "/AkylUP/static/css/main.a8b9567b.css",
+    "main.js": "/AkylUP/static/js/main.f857812a.js",
+    "static/media/Исманкулов1.jpg": "/AkylUP/static/media/Исманкулов1.11459557cf8de076f3c7.jpg",
     "static/media/image.png": "/AkylUP/static/media/image.f07c3f61215d57304976.png",
+    "static/media/images.png": "/AkylUP/static/media/images.78ffaac803b6211dfd92.png",
     "static/media/circle.png": "/AkylUP/static/media/circle.5756c45ed44ccbd87855.png",
     "index.html": "/AkylUP/index.html",
-    "main.fd181cb3.css.map": "/AkylUP/static/css/main.fd181cb3.css.map",
-    "main.3db07878.js.map": "/AkylUP/static/js/main.3db07878.js.map"
+    "main.a8b9567b.css.map": "/AkylUP/static/css/main.a8b9567b.css.map",
+    "main.f857812a.js.map": "/AkylUP/static/js/main.f857812a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd181cb3.css",
-    "static/js/main.3db07878.js"
+    "static/css/main.a8b9567b.css",
+    "static/js/main.f857812a.js"
   ]
 }
