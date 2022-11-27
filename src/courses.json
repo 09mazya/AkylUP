@@ -1,46 +1,55 @@
 [
   {
-    "image": "imgfor.png",
+    "image": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     "title": "Бесплатные курсы",
     "description": "Цифровая трансформация в государственном секторе"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1575468332949-4bd46064dd66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Как быть цифровым государственной службе"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1575468332949-4bd46064dd66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1083&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.pexels.com/photos/4623491/pexels-photo-4623491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     "title": "Премиум курс",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1575468332949-4bd46064dd66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
     "title": "Бесплатный курс",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1083&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1575468332949-4bd46064dd66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Экономическая справедливость и права"
   },
   {
-    "image": "imgfor.png",
+    "image": "https://images.unsplash.com/photo-1575468332949-4bd46064dd66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+
     "title": "Бесплатные курсы",
     "description": "Экономическая справедливость и права"
   }

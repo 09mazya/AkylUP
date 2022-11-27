@@ -27,12 +27,48 @@
 }
 
 .articles-list-p {
-  /* width: 751px;
-  height: 76px; */
+  width: 751px;
+  height: 76px;
   font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 23px;
   line-height: 120%;
+  display: flex;
+  text-align: start;
+  align-items: flex-start;
   color: #000000;
+  margin-left: 60px;
+  position: relative;
+  top: 25px;
+  
+}
+
+.articles-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.autor-block {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+.articles-img {
+  width: 315px;
+  height: 200px;
+}
+
+.autor {
+  width: 187px;
+  height: 19px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #00000091;
 }
