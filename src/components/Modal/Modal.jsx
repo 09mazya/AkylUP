@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 import "./Modal.css"
 
 const Modal = ({ setIsOpen }) => {
@@ -30,7 +32,7 @@ const Modal = ({ setIsOpen }) => {
                 <div className='forget-container'>
                     <span>Забыли пароль?</span></div>
                 <div className='button-container'>
-                    <button className='button-auth'>Войти</button>
+                    <Link to='/my-profile' className='button-auth'>Войти</Link>
                 </div>
                 <div className='account-container'>
                     <span>У вас нет аккаунта?</span>

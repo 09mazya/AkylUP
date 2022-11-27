@@ -35,7 +35,7 @@ function Footer() {
                 <a href="#">Наша история</a>
                 <a href="#">Карьера</a>
                 <a href="#">Наши партнеры </a>
-                <a href="#">Связаьтся</a>
+                <a href="#">Связаться</a>
             </div>
             <div className='footerContent'>
                 <h3 className='hFooter'>Контакты</h3>

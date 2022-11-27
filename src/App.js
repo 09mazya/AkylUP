@@ -6,6 +6,8 @@ import Events from './pages/Event/Events';
 import Courses from './pages/Courses/Courses';
 import Qa from './pages/Qa/Qa';
 import Footer from './components/footer/footer';
+import MyProfile from './pages/Dashboard/MyProfile/MyProfile';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/events" element={<Events/>} />
         <Route path="/courses" element={<Courses/>} />
         <Route path="/qa" element={<Qa/>} />
+        <Route path="/my-profile" element={<MyProfile/>} />
       </Routes>
       <Footer/>
     </div>
