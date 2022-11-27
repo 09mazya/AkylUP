@@ -9,7 +9,7 @@
   color: #000000;
 }
 
-button {
+.article-btn {
   padding: 15px 20px;
   width: 280px;
   height: 52px;
@@ -23,5 +23,16 @@ button {
   color: #ffffff;
   border: none;
   cursor: pointer;
-  margin-bottom: 123px;
+  margin-bottom: 80px;
+}
+
+.articles-list-p {
+  /* width: 751px;
+  height: 76px; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #000000;
 }
