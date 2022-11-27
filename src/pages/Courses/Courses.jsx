@@ -7,9 +7,9 @@ function Courses() {
   return (
     <>
       <div className="courses-title-block">
-        <h1 className="courses-title">Навыки для правительств 21 века</h1>
+        <h1 className="courses-title">Навыки 21 века</h1>
         <p className="courses-text">
-          Интерактивные онлайн-курсы для государственных служащих 21 века.
+          Интерактивные онлайн-курсы 21 века.
           Освойте основные навыки и получите сертификат об окончании.
         </p>
       </div>
@@ -17,7 +17,7 @@ function Courses() {
         <div className="courses-list-title">
           <img className="courses-list-title-img" src={Circle} alt="" />
           <p className="courses-list-title-text">
-            ЦИФРОВОЕ ПРАВИТЕЛЬСТВО И ТЕХНОЛОГИИ
+            ТЕХНОЛОГИИ В МЕДИЦИНЕ
           </p>
         </div>
         <div className="courses-list-wrap">
