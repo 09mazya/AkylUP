@@ -89,6 +89,7 @@ input {
   height: 223px;
   background: rgba(203, 227, 250, 0.3);
   border-radius: 40px;
+  margin-bottom: 60px;
 }
 
 .quetions-text {
@@ -122,7 +123,7 @@ input {
   align-items: center;
   text-align: center;
   position: relative;
-  top:-5px;
+  top: -5px;
 }
 
 .micro-answers {
