@@ -1,6 +1,7 @@
 import React from "react";
 import "../Articles/Articles.css";
 import DataArticles from "../../dataArticles.json";
+import Author from "../Articles/Articles-img/author.png"
 
 function Articles() {
   return (
@@ -15,6 +16,7 @@ function Articles() {
             <div>
               <p className="articles-list-p">{item.title}</p>
               <div className="autor-block">
+                <img src={Author} alt="" />
                 <p className="autor">Асанов Усон</p>
                 <p className="autor">26.11.2022</p>
               </div>
