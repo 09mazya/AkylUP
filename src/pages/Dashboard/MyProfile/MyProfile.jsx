@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./MyProfile.css"
 
 function MyProfile() {
   return (
-    <div>MyProfile
-        
-    </div>
-  )
+    <>
+      <div className="myprofile-block">
+
+      </div>
+    </>
+  );
 }
 
-export default MyProfile
+export default MyProfile;
